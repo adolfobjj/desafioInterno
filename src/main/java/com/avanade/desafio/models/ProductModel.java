@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.antlr.v4.runtime.misc.NotNull;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -16,7 +15,7 @@ import java.util.UUID;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProdutoModel implements Serializable {
+public class ProductModel implements Serializable {
 
 
     private static final long serialVersionUID = 1L;
